@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Rock Paper scissors dom</title>
+	<link rel="stylesheet" href="rps.css">
+</head>
+
+<body>
+	<p class="titleGame">Rock Paper scissors GAME <br /></p>
+	<button class="game-btn js-rock-btn" onclick="setResult('rock');">
+		<img class="game-img" src="uploads/rock-emoji.png" alt="">
+	</button>
+	<button class="game-btn js-paper-btn" onclick="setResult('paper');">
+		<img class="game-img" src="uploads/paper-emoji.png" alt="">
+	</button>
+	<button class="game-btn js-scissors-btn" onclick="setResult('scissors');">
+		<img class="game-img" src="uploads/scissors-emoji.png" alt="">
+	</button>
+	<br>
+	<div id="Res">
+		<!-- <p class="results-css">Won</p>
+
+		<p class="moves-res">
+			You
+			<img class="moves-css" src="/uploads/paper-emoji.png" alt="">
+			<img class="moves-css" src="/uploads/rock-emoji.png" alt="">
+			Computer
+		</p>
+		<p class="score-css"></p> -->
+	</div>
+	<br>
+	<button class="reset-btn" onclick="
+   pcMove = ''
+   result = ''
+   score={
+      Wins:0,
+      Losses:0,
+      Ties:0
+   }
+   res.innerHTML=` <br>
+   Wins : ${score.Wins} 
+         <br>
+         Losses : ${score.Losses}
+         <br>  
+         Ties : ${score.Ties}`;
+   ">
+		Reset Results
+	</button>
+	<button class="auto-btn" onClick="autoPlay();">Auto Play</button>
+	<script src="rps.js">
+
+	</script>
+</body>
+
+</html>

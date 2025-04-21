@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.titleGame {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.game-btn {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px dotted #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.game-img {
+  width: 70px;
+}
+
+.reset-btn,
+.auto-btn {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #517856;
+  color: #fff;
+}
+.auto-btn-on {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #6d9172;
+  color: #c02d2d;
+}
+
+.results-css {
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.moves-css {
+  width: 50px;
+}

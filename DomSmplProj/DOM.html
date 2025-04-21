@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DoM</title>
+   <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+   <!-- Welcome -->
+   <input type="text" class="hi input-css" onkeydown="nameWelcome(event);" onkeyup="keyUp(event);">
+
+   <button class="hi input-btn-css" onclick="hi()">Hi</button>
+   <p class="msg">Welcome </p>
+   <!-- Subscribe! -->
+   <p>Youtube subscribe button</p>
+   <button class="js-subscribe subscribe" onclick="subscribeBtn();">Subscribe</button>
+   <br>
+   <br>
+   <!-- Game -->
+   <p>Play Rock Paper Scissors :</p>
+   <a href="R-P-S-game.html"><button class="play-btn">Play</button></a>
+   <br>
+   <br>
+   <!-- calculator -->
+   <p>
+      Amazon Shipping Calculator
+      <br><br>
+      Orders under $40 = +$10 shipping.
+      <br>
+      Orders over $40 = FREE shipping.
+   </p>
+   <input class="cost input-css" type="text" placeholder="Cost of order" onkeydown="handleCostKey(event)">
+
+   <button id="calc" class="input-btn-css " onclick="calculateCost()" style="width: 80px;">Calculate</button>
+
+   <p class="finalCost"></p>
+   <script src="scripts/script.js">
+
+   </script>
+</body>
+
+</html>
